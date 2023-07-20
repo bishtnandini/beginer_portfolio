@@ -1,0 +1,88 @@
+nav{
+    height: 60px;
+    width: 1340px;
+    display: flex;
+    /* background-color: red; */
+    background-color: #F9F1F0;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.left img{
+    width: 120px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 4px;
+    background-color: aqua;
+}
+.right {
+    display: flex;
+    
+    height: 60px;
+    width: 500px;
+    /* background-color: antiquewhite; */
+
+}
+.right ul  {
+    list-style: none;
+    display: flex;
+}
+.right ul a {
+    margin-right: 45px;
+    text-decoration: none;
+    font-size: 20px;
+    /* color: blueviolet; */
+    color: #F79489;
+    
+}   
+/* section-1 */
+.secimg{
+  
+    height: 550px;
+    /* background-image: url("https://e0.pxfuel.com/wallpapers/639/598/desktop-wallpaper-web-development.jpg"); */
+    width: 1320px;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 5px;
+    /* background-repeat: repeat-x; */
+}
+/* .leftsec{
+    margin-top: 5px;
+    margin-left: 55px;
+} */
+.leftsec img{
+    height: 550px;
+    width: 550px;
+}
+.rightsec{
+    height: 550px;
+    /* width: calc(100%-550px); */
+    width: 1400px;
+    z-index: 2;
+    margin-left: 0;
+    /* background-image: url("https://e0.pxfuel.com/wallpapers/639/598/desktop-wallpaper-web-development.jpg"); */
+    background-image: url("https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"); 
+    
+}
+.rightsec p  {
+    font-size: 35px;
+    margin-top: 90px;
+    /* color: rgb(154, 22, 243); */
+    color: #000000;
+    padding-left: 25px;
+    margin-left: 55px;
+     
+}
+.rightsec span{
+    font-size: 45px;
+    padding-left: 25px;
+    color: #DC0DE0;
+
+}
+.rightsec pre, .rightsec strong{
+    font-size: 35px;
+    color: #ec798a;
+    padding-left: 25px;
+
+}

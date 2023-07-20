@@ -1,0 +1,44 @@
+.cont{
+    background-image: url("https://as2.ftcdn.net/v2/jpg/06/14/58/31/1000_F_614583127_qvNN5drflGzJLIR8piL0FGocuXcgroGV.jpg");
+    height: 390px;
+    width: 1339px;
+    background-size: 1339px 580px;
+
+
+}
+.info_cont{
+    margin-left: 25px;
+    padding-top: 15px;
+    display: flex;
+
+}
+.info{
+    height: 330px;
+    width: 450px;
+    background-color: white;
+    box-shadow: 1px 1px 5px 1px rgba(243, 195, 195, 0.39);
+    padding: 10px;
+    margin-right: 15px;
+}
+.info img{
+    height: 250px;
+    width: 450px;
+    
+}
+.heading, .subheading{
+    font-size: 20px;
+    color: palevioletred;
+}
+button{
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 25px;
+    border: none;
+    background-color: pink;
+}
+.info:hover {
+    transition: transform 0.5s;
+    transform: scale(1.05);
+    box-shadow: 1.5px 1.5px 5px 1.5px rgba(0, 0, 0, 0.2);
+}
